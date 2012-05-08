@@ -165,10 +165,4 @@ class Dailymotion{
 		imagedestroy($play);
 	}
 
-    public function debug(){
-    	echo "<pre>";
-    	echo print_r($this->_infos);
-    	echo "</pre>";
-    }
-
 }
