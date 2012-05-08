@@ -1,4 +1,13 @@
 <?php
+/**
+ * Unofficial Dailymotion API 
+ *
+ *
+ * @copyright  Copyright (c) 2012, Antoine Bagnaud
+ * @license    http://www.gnu.org/licenses/gpl.txt	GPL
+ * @author     Antoine Bagnaud <ipodtouchpro44@gmail.com>
+ * @version    1.0 2012-05-08  
+ */
 class Dailymotion{
 	private $_id;
 	private $_infos;
