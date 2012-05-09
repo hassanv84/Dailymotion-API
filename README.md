@@ -11,6 +11,7 @@ $d->Dailymotion('xllyx8');
 ```
 
 The argument upon initialization of the class is the ID of the video
+
 -------------------------------------------
 ![ID video](http://i.imgur.com/LXgOJ.png "ID video")
 -------------------------------------------
