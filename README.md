@@ -46,7 +46,7 @@ $d->getVideoTags();
 
 Dailymotion url of the video
 ```php
-$d->getVideoUniqueURL();
+$d->getVideoUniqueUrl();
 ```
 
 Owner login on the video

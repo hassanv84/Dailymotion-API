@@ -46,7 +46,7 @@ class Dailymotion{
 		return isset($this->_infos[0]->layerList[0]->sequenceList[0]->layerList[0]->param->extraParams->videoTags)?$this->_infos[0]->layerList[0]->sequenceList[0]->layerList[0]->param->extraParams->videoTags:false;
 	}
 
-	public function getVideoUniqueURL(){
+	public function getVideoUniqueUrl(){
 		return isset($this->_infos[0]->layerList[0]->sequenceList[0]->layerList[0]->param->extraParams->videoUniqueURL)?$this->_infos[0]->layerList[0]->sequenceList[0]->layerList[0]->param->extraParams->videoUniqueURL:false;
 	}
 
