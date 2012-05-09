@@ -14,6 +14,7 @@ The argument upon initialization of the class is the ID of the video
 
 -------------------------------------------
 ![ID video](http://i.imgur.com/LXgOJ.png "ID video")
+
 -------------------------------------------
 
 ### The list of functions to get information about the video
@@ -98,5 +99,28 @@ Url to the video file of better quality
 $d->getBestQuality();
 ```
 
+-------------------------------------------
+
+### List of tools at your disposal
+
+Force download of a video
+```php
+$d->downloadVideo($d->getBestQuality());
+```
+
+Converted the duration of the video (in seconds) in minutes
+```php
+$d->getVideoTimeConverted();
+```
+
+Converted the date to upload in relative date
+```php
+$d->getVideoUploadDateTimeRelative();
+```
+
+Adding a logo "play" in the preview image, the logo should be in PNG format !
+```php
+$d->insertPlayImage('http://i.imgur.com/kGfSq.png');
+```
 
 
