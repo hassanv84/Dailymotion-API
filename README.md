@@ -7,7 +7,7 @@ Dailymotion API
 
 To initialize the class:
 ```php
-$d->Dailymotion('xllyx8');
+$d = new Dailymotion('xllyx8');
 ```
 
 The argument upon initialization of the class is the ID of the video
