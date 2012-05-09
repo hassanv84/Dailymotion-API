@@ -10,5 +10,5 @@ To initialize the class:
 $d->Dailymotion('xllyx8');
 ```
 
-L'argument lors de l'initialisation est l'ID de la vidéo
-http://www.dailymotion.com/video/**xllyx8**_bande-annonce-the-avengers-trailer-hd-1080p_shortfilms
+The argument at boot is the ID of the video
+![ID video](http://i.imgur.com/LXgOJ.png "ID video")
